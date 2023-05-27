@@ -1,4 +1,4 @@
-package day10nestedternaryswitch;
+package day07stringmanipulations.day10nestedternaryswitch;
 
 import java.util.Scanner;
 

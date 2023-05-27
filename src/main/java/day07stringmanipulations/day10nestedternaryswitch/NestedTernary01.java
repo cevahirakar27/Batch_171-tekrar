@@ -1,4 +1,4 @@
-package day10nestedternaryswitch;
+package day07stringmanipulations.day10nestedternaryswitch;
 
 public class NestedTernary01 {
     public static void main(String[] args) {

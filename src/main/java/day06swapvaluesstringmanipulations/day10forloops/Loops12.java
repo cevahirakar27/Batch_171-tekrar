@@ -26,8 +26,11 @@ public class Loops12 {
                 hesap += " * ";
 
 
+
                 hesap += " = " + faktöriyel;
                 System.out.println(hesap);
+
+
             }
         }
     }
