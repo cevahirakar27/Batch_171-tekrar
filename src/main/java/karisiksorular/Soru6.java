@@ -16,10 +16,10 @@ public class Soru6 {
 
 
 
-        //String cumle = "her sey çok güzel olacak";
-      ////  char karakter = 'e';
-      //  int tekrarSayisi = cumle.length() - cumle.replace(String.valueOf(karakter), "").length();
-     //   System.out.println("Karakterin Tekrar Sayısı: " + tekrarSayisi);
+        String cumle = "her sey çok güzel olacak";   // e kac defa tekrarlanmis
+        char karakter = 'e';
+        int tekrarSayisi = cumle.length() - cumle.replace(String.valueOf(karakter), "").length();
+        System.out.println("Karakterin Tekrar Sayısı: " + tekrarSayisi);
 
     }
     }

@@ -16,9 +16,13 @@ public class C12_WhileLoop {
 
         for (int i = sayi; i >=1 ; i--) {
             fak= fak*i;
+            if (i>1){
+                System.out.print(i+ "*");
+            }else {
 
+            }
         }
-        System.out.println(hesap );
+        System.out.print("=" +fak);
 
     }
 }
