@@ -1,5 +1,9 @@
 package sorubankasi;
 
+import java.io.FilterOutputStream;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class KelimeTahminOyunu {
     public static void main(String[] args) {
 
@@ -19,6 +23,14 @@ public class KelimeTahminOyunu {
               Başlangıçta oyuncunun 5 hakka sahip olduğu varsayılmalıdır.
         - Oyuncunun doğru kelimeyi bulması durumunda, tebrik mesajı gösterilmeli ve oyun sonlandırılmalıdır.
         - Oyuncunun kalan hakları sıfır olduğunda, olumsuz bir mesaj ve doğru kelime gösterilmelidir.
+
      */
+
+
+
+
+
+
+
     }
 }

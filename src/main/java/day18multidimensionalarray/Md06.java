@@ -9,14 +9,18 @@ public class Md06 {
         // tum elemanlarin toplamini birer birer bulup yeni arrayi elemani yapan kodu yaziniz
         // [3,12,13]
 
+
           int yeniDizi[] = new  int[arr.length];
         for (int i = 0; i <arr.length ; i++) {
             int toplam =0;
             for (int j = 0; j <arr[i].length; j++) {
                  toplam = toplam+arr[i][j] ;
+                yeniDizi[i] = toplam;
+
             }
-            yeniDizi[i] = toplam;
+
         }
+
         System.out.println(Arrays.toString(yeniDizi));
 
 
