@@ -27,5 +27,7 @@ public class Array {
         }
         System.out.println("3 ile bolunenlerin sayisi :" +sayac);
 
+        
+
     }
 }
