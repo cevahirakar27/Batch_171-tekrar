@@ -1,5 +1,6 @@
 package sorubankasi;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class SayiOyunu {
@@ -24,11 +25,30 @@ public class SayiOyunu {
             - Oyuncu 1'e basarsa, oyun yeniden başlatılır ve yeni bir rastgele sayı seçilir.
             - Oyuncu herhangi bir sayıya basarsa, oyun sona erer ve program sonlanır.
      */
-        Scanner scan = new Scanner(System.in);
-        System.out.println("lutfen 1-100 arasi sayi giriniz.");
-        int sayi = scan.nextInt();
 
+        Random random = new Random();
+        int rdm = random.nextInt(10) + 1;
+
+        Scanner scan = new Scanner(System.in);
+
+        int can = 10;
         int sayac = 0;
+        do {
+
+            System.out.println("lutfen 1 den 100 e kadar bir sayi giriniz.");
+            int tahmin = scan.nextInt();
+            if (tahmin!=rdm){
+                sayac++;
+                System.out.println("bulamadi");
+                break;
+            }
+
+        }while (true);
+
+
+
+
+
 
 
     }

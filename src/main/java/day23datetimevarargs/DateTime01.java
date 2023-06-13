@@ -1,5 +1,6 @@
 package day23datetimevarargs;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -23,5 +24,20 @@ public class DateTime01 {
         }else {
             System.out.println("bilet tarihi giriniz");
         }
+
+
+        //Example 2: Kullanicinin girdigi tarihin gun ismini bulan kodu yaziniz.
+
+        // yukarida scanner ver
+
+        int year = scan.nextInt();
+        int month = scan.nextInt();
+        int day = scan.nextInt();
+        LocalDate tarih = LocalDate.of(year,month,day);
+        DayOfWeek k  = tarih.getDayOfWeek();
+        System.out.println(k);
+
+
+
     }
 }
