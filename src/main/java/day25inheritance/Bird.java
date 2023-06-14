@@ -2,10 +2,9 @@ package day25inheritance;
 
 public class Bird extends Animal{
 
-    public void tweet(){
-        System.out.println("kuslar oter...");
-
+    public void ucar(){
+        System.out.println("kuslar ucar");
 
     }
-}
 
+}

@@ -2,11 +2,15 @@ package day25inheritance;
 
 public class Car extends Vehicle {
 
-    public  Car (){
+    public Car(){
+
+
         System.out.println("Car1");
     }
-    public Car(String make){
+    public Car(String renk){
 
-        System.out.println("car1");
+
+        System.out.println("Car2");
     }
+
 }

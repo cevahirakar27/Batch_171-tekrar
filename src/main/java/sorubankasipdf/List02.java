@@ -6,7 +6,7 @@ import java.util.List;
 public class List02 {
     public static void main(String[] args) {
 
-      //  Bir tamsayı listesinde 13 öğesinden önceki tüm liste öğelerinin toplamını bulunuz.
+        //  Bir tamsayı listesinde 13 öğesinden önceki tüm liste öğelerinin toplamını bulunuz.
         List<Integer> myList = new ArrayList<>();
         myList.add(12);
         myList.add(31);
@@ -17,14 +17,13 @@ public class List02 {
 
         int sum = 0;
 
-        for (int w : myList){
-            if (w==13){
+        for (int w : myList) {
+            if (w == 13) {
+
                 break;
+            }sum = sum+w;
 
-            } sum = sum+w;
 
-        }
-        System.out.println(sum);  // 50
-
+        } System.out.println(sum);  // 50
     }
 }

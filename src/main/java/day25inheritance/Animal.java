@@ -36,15 +36,13 @@ public class Animal {
      */
 
 
-    public  void  eat(){
-        System.out.println("animals eat");
-    }
-    public  void drink(){
-        System.out.println("animals drink");
+    public void eat(){
+        System.out.println("hayvanlar yerler");
     }
 
-
-
+    public void drinks(){
+        System.out.println("hayvanlar icerler");
+    }
 
 
 

@@ -1,8 +1,7 @@
 package day25inheritance;
 
 public class VehicleRunner {
-    public static void main(String[] args) {
-        Honda civic = new Honda();
+
 
 
         //  mesela burda vehicle objesi olutursaydik sadce vehicle
@@ -17,5 +16,12 @@ public class VehicleRunner {
         en ust classtan baslayarak alta dogru calistirir.
 
          */
-    }
+        public static void main(String[] args) {
+
+            Honda h1 = new Honda();
+
+
+
+        }
+
 }

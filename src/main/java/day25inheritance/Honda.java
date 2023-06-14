@@ -1,13 +1,15 @@
 package day25inheritance;
 
-public class Honda extends Car {
+public class Honda extends Car{
 
     public Honda(){
-        System.out.println("Honda1");
+
+        System.out.println("honda civic1");
 
     }
-    public  Honda(String model,int year){
+    public Honda(String marka,int fiyat){
 
-        System.out.println("honda1");
+        System.out.println("honda cıvıc2");
+
     }
 }

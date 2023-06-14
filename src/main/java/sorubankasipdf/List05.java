@@ -8,7 +8,7 @@ public class List05 {
 
 
       //  Listede eleman olarak 15 varsa, tüm 15'leri 51 olarak değiştiriniz.
-       // Örnek: (12, 11, 15, 34, 43);     ==>  Çıktı (12, 11, 51, 34, 43)
+       // Örnek: (12, 11, 15, 34,15, 43);     ==>  Çıktı (12, 11, 51, 34,51, 43)
         List<Integer> g = new ArrayList<>();
         g.add(12);
         g.add(11);
@@ -19,13 +19,10 @@ public class List05 {
         System.out.println(g);  // [12, 11, 15, 34, 15, 43]
 
         for (int w : g){
-            if (w==15) {
-
-               int l = g.set(g.indexOf(15),51);
-
-            }
+           g.set(g.indexOf(15),51);
+            System.out.println(g);   // [12, 11, 51, 34, 51, 43]
 
         }
-        System.out.println(g);   // [12, 11, 51, 34, 51, 43]
+
     }
 }
