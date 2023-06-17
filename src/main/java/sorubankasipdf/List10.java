@@ -12,11 +12,8 @@ public class List10 {
         //Örnek: List<String> myList = new List<String>{'$12.99', '$8.25', '$23.60', '$54.45'}; ==> 62.70
 
 
-        List<String> liste = new ArrayList<>();
-        liste.add("$12.99");
-        liste.add("$23.60");
-        liste.add("$54.45");
-        liste.add("$8.25");
+        List<String>liste = List.of("$12.99","$23.60","$54.45","$8.25");
+
         System.out.println(liste);         // [$12.99, $23.60, $54.45, $8.25]
         Double toplam = 0.0;
 
@@ -29,6 +26,6 @@ public class List10 {
         Collections.sort(yeni);
         System.out.println(yeni);   // [8.25, 12.99, 23.6, 54.45]
        double sum = yeni.get(0)+yeni.get(yeni.size()-1);
-        System.out.println(sum);     // 62.7
+        System.out.println(sum+ "$");     // 62.7
     }
 }

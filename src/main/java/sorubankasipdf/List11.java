@@ -16,7 +16,7 @@ public class List11 {
         myList.add(15);
         myList.add(23);
 
-        int satyac =0;
+
         System.out.println(myList);  // [10, 31, 15, 7, 15, 23]
 
         for (int w : myList){

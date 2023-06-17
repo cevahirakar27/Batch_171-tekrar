@@ -23,5 +23,20 @@ public class List08 {
         }
 
     }System.out.println(h);   // [14, 33, 7, 15, 10]
+
+
+        // liistin belli bir bolumunu alma
+
+        List<Integer>arr = new ArrayList<>();
+        arr.add(1);
+        arr.add(2);
+        arr.add(3);
+        arr.add(4);
+        arr.add(5);
+        System.out.println(arr);      // [1, 2, 3, 4, 5]
+
+        System.out.println(arr.subList(1, 4));
+
+
     }
 }
