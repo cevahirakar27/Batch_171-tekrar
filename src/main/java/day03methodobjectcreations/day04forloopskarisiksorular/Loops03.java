@@ -1,4 +1,4 @@
-package day04forloopskarisiksorular;
+package day03methodobjectcreations.day04forloopskarisiksorular;
 
 public class Loops03 {
     public static void main(String[] args) {

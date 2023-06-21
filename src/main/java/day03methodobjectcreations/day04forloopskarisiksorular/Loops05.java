@@ -1,4 +1,4 @@
-package day04forloopskarisiksorular;
+package day03methodobjectcreations.day04forloopskarisiksorular;
 
 public class Loops05 {
 
